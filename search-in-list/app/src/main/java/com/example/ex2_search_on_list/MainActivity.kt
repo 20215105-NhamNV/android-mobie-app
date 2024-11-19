@@ -15,10 +15,12 @@ class MainActivity : AppCompatActivity() {
     private lateinit var studentAdapter: ArrayAdapter<String>
     private val students = mutableListOf(
         Student("Nguyễn Văn A", "20211234"),
-        Student("Trần Thị B", "20219876"),
-        Student("Phạm Văn C", "20213456"),
-        Student("Lê Thị D", "20215678"),
-        Student("Hoàng Văn E", "20217654")
+        Student("Nguyễn Thị B", "20219876"),
+        Student("Trần C", "20213456"),
+        Student("Lê Văn D", "20215678"),
+        Student("Nguyễn Thị E", "20217654"),
+        Student("Nguyễn F", "20217654"),
+        Student("Nguyễn G", "20217654"),
     )
     private val studentNames = students.map { "${it.name} - ${it.mssv}" }.toMutableList()
 
